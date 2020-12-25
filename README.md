@@ -10,7 +10,8 @@
 
 - git branch で今あるブランチがわかる
 
-- git checkout ブランチ名  masterからスイッチ
+- git swicth ブランチ名  masterからスイッチ
+
 [【Git】あなたが知らない新コマンドswitch/restoreの世界にご招待 - Qiita](https://qiita.com/rebi/items/5a23f8cf904271bb5452)
 
 ファイル編集
