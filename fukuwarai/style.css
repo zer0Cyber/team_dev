@@ -25,19 +25,21 @@ header {
 .lzone {
     margin: 1em;
     padding: 1em;
-    width: 500px;
+    width: 600px;
+    height: 750px;
     background-color:#f6d759;
     color: #d14a2a;
     font-weight: bold;
 }
 .rzone {
+    position: relative;
     margin: 1em;
     padding: 1em;
     width: 500px;
+    height: 750px;
     background-color: #f6d759;
     color: #d14a2a;
     font-weight: bold;
-    display: block;
 }
 
 .face {
@@ -63,17 +65,17 @@ header {
 
 .eyezone {
     position: absolute;
+    margin-left: 50px;
 }
 .nosezone {
     position: absolute;
-    top: 320px;
-    right: 300px;
+    margin-left: 150px;
 }
 .mouthzone {
-    text-align: right;
+    position: absolute;
+    margin-left: 250px;
 }
 .mayuzone {
     position: absolute;
-    right: 170px;
-    top: 310px;
+    margin-left: 350px;
 }
