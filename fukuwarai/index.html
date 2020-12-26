@@ -9,14 +9,23 @@
     <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="fukuwarai.js" type="text/javascript"></script>
     <script src="cmanObjMove_v091.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 </head>
 <body>
     <header>
+        <div class="logol"><img src="image/logo.png" width="100px"></div>
         <div class="titletxt">ふくわらい　で　あそぼう</div>
+        <div class="logor"><img src="image/logo.png"></div>
         <div class=rule>
-            <br>＊ルール＊<br>①まずは好きな顔のもとを選んでね！<br>②その顔に合ったパーツを探して配置しよう！<br>＊パーツを動かすと画面が暗くなるから記憶と感覚で完成させよう！
+            <br>＊ルール＊<br>①まずは好きな顔のもとを選んでね！<br>②その顔に合ったパーツを探して配置しよう！<br><br>＊パーツを動かすと画面が暗くなるから記憶と感覚で完成させよう！
         </div>
     </header>
+    <script>
+        swal({
+            title: 'こちらはゲームコーナーです！',
+            text: ' ふくわらい　であそべるよ'
+        });
+    </script>
     <div class="zone">
     <div class="lzone">
         <p>ここに顔をつくろう</p>
@@ -64,5 +73,9 @@
         </div>
     </div>
     </div>
+    <footer>
+        <div class="logof"><img src="image/logo.png" width="500%"></div>
+        <div class="logofr"><img src="image/logo.png" width="100px"></div>
+    </footer>
 </body>
 </html>
