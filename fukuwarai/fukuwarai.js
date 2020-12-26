@@ -9,6 +9,7 @@ jQuery(function(){
     $("#face2").hide();
     $("#face3").hide();
     $(".cover").hide();
+    $("#finish").hide();
 
     $("#facea").click(function(){
         $("#face1").show();
@@ -30,6 +31,7 @@ jQuery(function(){
     $(".img").mousedown(function(){
         if(i==0){
             $(".cover").show();
+            $("#finish").show();
         }
         $(".cover").css('z-index', 2);
         i++;
