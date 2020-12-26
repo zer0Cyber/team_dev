@@ -1,0 +1,60 @@
+body {
+  background: url(img/osaisen.png) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+  height:100%;
+  border: 30%;
+}
+.box {
+  text-align: center;
+}
+.box img {
+  width: 40%;
+}
+.miko {
+  position: absolute;
+  margin-left: 10%;
+  margin-bottom: 0%;
+}
+#btn_suzu {
+  display: none;
+  text-align: center;
+}
+#btn_goen {
+  margin-left: 30%;
+  position: absolute;
+  text-align: center;
+}
+#ex1 {
+  position: absolute;
+  text-align: center;
+}
+
+#ex1 {
+  position: relative;
+  display: inline-block;
+  margin-left: 9%;
+  padding: 7px 10px;
+  min-width: 120px;
+  max-width: 100%;
+  color: #555;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 15px;
+}
+
+#ex1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -15px;
+  border: 15px solid transparent;
+  border-top: 15px solid rgba(255, 255, 255, 0.7);
+}
+
+#ex1 p {
+  margin: 0;
+  padding: 0;
+}
