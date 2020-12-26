@@ -10,6 +10,7 @@ body {
 }
 
 header {
+    position: relative;
     margin: 2em;
     font-weight: bold;
 }
@@ -17,6 +18,20 @@ header {
 .titletxt {
     font-size: 2em;
     font-weight: bold;
+}
+
+.logol {
+    position: absolute;
+    top: 50px;
+    left: 20em;
+    opacity: 0.9;
+}
+
+.logor {
+    position: absolute;
+    right: -40px;
+    top: 100px;
+    opacity: 0.8;
 }
 
 .zone {
@@ -121,4 +136,25 @@ a.btn:hover {
 .mayuzone {
     position: absolute;
     margin-left: 350px;
+}
+
+footer {
+    position: relative;
+    width: 1px;
+}
+
+.logof {
+    position: absolute;
+    top: -440px;
+    left: -100px;
+    z-index: -1;
+    opacity: 0.9;
+}
+
+.logofr {
+    position: absolute;
+    top: -50px;
+    left: 1200px;
+    z-index: -1;
+    opacity: 0.9;
 }
