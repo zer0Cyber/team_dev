@@ -34,6 +34,7 @@ jQuery(function(){
             $("#finish").show();
         }
         $(".cover").css('z-index', 2);
+        i++;
     }).mouseup(function(){
         $(".cover").css('z-index', 1002);
         i++;
