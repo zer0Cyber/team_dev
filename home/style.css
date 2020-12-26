@@ -1,0 +1,55 @@
+body {
+    position: relative;
+    background-image: url(image/HOME.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #57bfc2;
+}
+
+.osaisenarea {
+    position: absolute;
+    margin: 6em 40em;
+    padding: 180px 100px;
+    background-color: #f6d759;
+    color: #f6d759;
+    opacity: 0;
+}
+
+.omikujiarea {
+    position: absolute;
+    margin: 11em 59em;
+    padding: 100px 25px;
+    background-color:#f6d759;
+    color: #f6d759;
+    opacity: 0;
+}
+
+.emaarea {
+    position: absolute;
+    margin: 19em 22.5em;
+    padding: 100px 115px;
+    background-color: #f6d759;
+    color: #f6d759;
+    opacity: 0;
+}
+
+.gamearea {
+    position: absolute;
+    margin: 8em 73em;
+    padding: 240px 160px;
+    background-color: #f6d759;
+    color: #f6d759;
+    opacity: 0;
+}
+
+.shoparea {
+    position: absolute;
+    margin: 7em -1em;
+    padding: 250px 160px;
+    background-color: #f6d759;
+    color: #f6d759;
+    opacity: 0;
+    cursor: pointer;
+}
