@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="fukuwarai" content="ふくわらい">
+    <title>ふくわらい</title>
+    <link rel="shortcut icon" href="image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="fukuwarai.js" type="text/javascript"></script>
+    <script src="cmanObjMove_v091.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <div class="titletxt">ふくわらい　で　あそぼう</div>
+        <div class=rule>
+            <br>＊ルール＊<br>①まずは好きな顔のもとを選んでね！<br>②その顔に合ったパーツを探して配置しよう！<br>＊パーツを動かすと画面が暗くなるから記憶と感覚で完成させよう！
+        </div>
+    </header>
+    <div class="zone">
+    <div class="lzone">
+        <p>ここに顔をつくろう</p>
+        <p>好きな顔を選んでね</p>
+        <button id="facea">かお1</button>
+        <button id="faceb">かお2</button>
+        <button id="facec">かお3</button>
+        <div class="face" id="face1"><img src="image/kao1.png" alt="かお1" width="500px"></div>
+        <div class="face" id="face2"><img src="image/kao2.png" alt="かお2" width="500px"></div>
+        <div class="face" id="face3"><img src="image/kao3.png" alt="かお3" width="500px"></div>
+        <div class="cover"></div>
+        <p><button id="finish">完成！</button></p>
+    </div>
+    <div class="rzone">
+        <p>パーツを選んでね</p>
+        <div class="eyezone">
+        <div id="me1" class="img"><img src="image/me1.png" alt="め1" width="80px" cmanOMat="move"></div>
+        <div id="me2" class="img"><img src="image/me1.png" alt="め1" width="80px" cmanOMat="move"></div>
+        <div id="me3" class="img"><img src="image/me2.png" alt="め2" width="80px" cmanOMat="move"></div>
+        <div id="me4" class="img"><img src="image/me2.png" alt="め2" width="80px" cmanOMat="move"></div>
+        <div id="me5" class="img"><img src="image/me3.png" alt="め3" width="80px" cmanOMat="move"></div>
+        <div id="me6" class="img"><img src="image/me3.png" alt="め3" width="80px" cmanOMat="move"></div>
+        <div id="me7" class="img"><img src="image/me4.png" alt="め4" width="80px" cmanOMat="move"></div>
+        <div id="me8" class="img"><img src="image/me4_2.png" alt="め4" width="80px" cmanOMat="move"></div>
+        </div><div class="nosezone">
+        <div id="hana1" class="img"><img src="image/hana1.png" alt="はな1" width="80px" cmanOMat="move"></div>
+        <div id="hana2" class="img"><img src="image/hana2.png" alt="はな2" width="80px" cmanOMat="move"></div>
+        <div id="hana3" class="img"><img src="image/hana3.png" alt="はな3" width="80px" cmanOMat="move"></div>
+        <div id="hana4" class="img"><img src="image/hana4.png" alt="はな4" width="80px" cmanOMat="move"></div>
+        <div id="hana5" class="img"><img src="image/hana5.png" alt="はな5" width="80px" cmanOMat="move"></div>
+        </div><div class="mouthzone">
+        <div id="kuchi1" class="img"><img src="image/kuchi1.png" alt="くち1" width="80px" cmanOMat="move"></div>
+        <div id="kuchi2" class="img"><img src="image/kuchi2.png" alt="くち2" width="80px" cmanOMat="move"></div>
+        <div id="kuchi3" class="img"><img src="image/kuchi3.png" alt="くち3" width="80px" cmanOMat="move"></div>
+        <div id="kuchi4" class="img"><img src="image/kuchi4.png" alt="くち4" width="80px" cmanOMat="move"></div>
+        </div><div class="mayuzone">
+        <div id="mayu1" class="img"><img src="image/mayu1.png" alt="まゆ1" width="80px" cmanOMat="move"></div>
+        <div id="mayu2" class="img"><img src="image/mayu1.png" alt="まゆ1" width="80px" cmanOMat="move"></div>
+        <div id="mayu3" class="img"><img src="image/mayu2.png" alt="まゆ2" width="80px" cmanOMat="move"></div>
+        <div id="mayu4" class="img"><img src="image/mayu2_2.png" alt="まゆ2" width="80px" cmanOMat="move"></div>
+        <div id="mayu5" class="img"><img src="image/mayu3.png" alt="まゆ3" width="80px" cmanOMat="move"></div>
+        <div id="mayu6" class="img"><img src="image/mayu3.png" alt="まゆ3" width="80px" cmanOMat="move"></div>
+        <div id="mayu7" class="img"><img src="image/mayu4.png" alt="まゆ4" width="80px" cmanOMat="move"></div>
+        <div id="mayu8" class="img"><img src="image/mayu4.png" alt="まゆ4" width="80px" cmanOMat="move"></div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
