@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/* color
+    黄 #f6d759 赤 #d14a2a 青 #57bfc2 */
+
+body {
+    background-color: #d14a2a;
+    color: #f6d759;
+    text-align: center;
+}
+header {
+    margin: 2em;
+    font-weight: bold;
+}
+
+.titletxt {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.zone {
+    display: flex;
+    justify-content: center;
+}
+.lzone {
+    margin: 1em;
+    padding: 1em;
+    background-color:#f6d759;
+    color: #d14a2a;
+    font-weight: bold;
+}
+.rzone {
+    margin: 1em;
+    padding: 1em;
+    background-color: #f6d759;
+    color: #d14a2a;
+    font-weight: bold;
+}
+
+.face {
+    margin-top: 20px;
+}
+.cover {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+    position: absolute;
+    top: 410px;
+}
+
+.drag-and-drop {
+    cursor: move;
+    position: absolute;
+    z-index: 1000;
+}
+
+.drag {
+    z-index: 1001;
+}

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="fukuwarai" content="ふくわらい">
+    <title>ふくわらい</title>
+    <link rel="shortcut icon" href="image/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="fukuwarai.js" type="text/javascript"></script>
+    <script src="cmanObjMove_v091.js" charset="utf-8"></script>
+</head>
+<body>
+    <header>
+        <div class="titletxt">ふくわらい　で　あそぼう</div>
+        <div class=rule>
+            <br>＊ルール＊<br>①まずは好きな顔のもとを選んでね！<br>②その顔に合ったパーツを探して配置しよう！<br>＊パーツを動かすと画面が暗くなるから記憶と感覚で完成させよう！
+        </div>
+    </header>
+    <div class="zone">
+    <div class="lzone">
+        <p>ここに顔をつくろう</p>
+        <p>好きな顔を選んでね</p>
+        <button id="facea">かお1</button>
+        <button id="faceb">かお2</button>
+        <button id="facec">かお3</button>
+        <div class="face" id="face1"><img src="image/kao1.png" alt="かお1" width="500px"></div>
+        <div class="face" id="face2"><img src="image/kao2.png" alt="かお2" width="500px"></div>
+        <div class="face" id="face3"><img src="image/kao3.png" alt="かお3" width="500px"></div>
+        <div class="cover"></div>
+        <p><button id="finish">完成！</button></p>
+    </div>
+    <div class="rzone">
+        <p>パーツを選んでね</p>
+        <div id="me1" class="img"><img src="image/me1.png" alt="め1" width="80px" cmanOMat="move"></div>
+        <div id="me2" class="img"><img src="image/me1.png" alt="め1" width="80px" cmanOMat="move"></div>
+        <div id="me3" class="img"><img src="image/me2.png" alt="め2" width="80px" cmanOMat="move"></div>
+        <div id="me4" class="img"><img src="image/me2.png" alt="め2" width="80px" cmanOMat="move"></div>
+        <div id="me5" class="img"><img src="image/me3.png" alt="め3" width="80px" cmanOMat="move"></div>
+        <div id="me6" class="img"><img src="image/me3.png" alt="め3" width="80px" cmanOMat="move"></div>
+    </div>
+    </div>
+</body>
+</html>
