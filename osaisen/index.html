@@ -3,13 +3,21 @@
 <head>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="sample.css">
-<title>サンプル</title>
+<link rel="shortcut icon" href="img/logo.png">
+<title>お賽銭 | 神様に会おう</title>
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
 <script src="sample.js"></script>
 </script>
 </head>
 <body id="body">
 <div class="back">
+  <script>
+    swal({
+        title: 'お賽銭エリアへようこそ',
+        text: '巫女さんの説明を聞いて楽しんでください！'
+    });
+</script>
 <div class="box" id="ex2">
   <img src="img/tuna1.png" id="tuna" name="img" onclick="suzuClick();">
   <p class="p_suzu">
@@ -17,14 +25,15 @@
   </p>
 </div>
 <div id="ex1">
-  <p>お金を入れる</p>
+  <p>お金を入れてください</p>
 </div>
-<p>
-  <input type="image" src="img/goen.png" id="btn_goen" onclick="goyenClick();">
-</p>
 <div class="miko">
-  <img src="img/miko.png">
+  <img src="img/miko.png" id="miko_img" name="miko">
 </div>
+<div class = "okane">
+  <a class="btn btn-malformation" id="btn_goen" onclick="goyenClick();" >　お金を投入する　</a>
+</div>
+<footer></footer>
 </div>
 </body>
 </html>
