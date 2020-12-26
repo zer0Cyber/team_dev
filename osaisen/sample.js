@@ -3,6 +3,10 @@ var flg = 0;
 
 
 function goyenClick(){
+
+  let audioElm_1 = new Audio('src/osaisen.mp3');
+  audioElm_1.play(); // 再生
+
   const btn_goen_kieru = document.getElementById("btn_goen");
   btn_goen_kieru.style.display ="none";
 
@@ -16,6 +20,9 @@ function goyenClick(){
 }
 
 function suzuClick(){
+
+  // let audioElm_2 = new Audio('src/garagara.mp3');
+  // audioElm_2.play(); // 再生
 
   var elem = document.getElementById("miko_img");
   elem.src = "img/miko.png"
