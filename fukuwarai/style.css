@@ -25,6 +25,7 @@ header {
 .lzone {
     margin: 1em;
     padding: 1em;
+    width: 500px;
     background-color:#f6d759;
     color: #d14a2a;
     font-weight: bold;
@@ -32,9 +33,11 @@ header {
 .rzone {
     margin: 1em;
     padding: 1em;
+    width: 500px;
     background-color: #f6d759;
     color: #d14a2a;
     font-weight: bold;
+    display: block;
 }
 
 .face {
@@ -56,4 +59,21 @@ header {
 
 .drag {
     z-index: 1001;
+}
+
+.eyezone {
+    position: absolute;
+}
+.nosezone {
+    position: absolute;
+    top: 320px;
+    right: 300px;
+}
+.mouthzone {
+    text-align: right;
+}
+.mayuzone {
+    position: absolute;
+    right: 170px;
+    top: 310px;
 }
