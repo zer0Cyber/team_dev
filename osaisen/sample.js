@@ -8,12 +8,19 @@ function goyenClick(){
 
   document.getElementById("ex1").innerText = "鈴を振りましょう";
 
+  var elem = document.getElementById("miko_img");
+  elem.src = "img/miko2.png"
+
   document.getElementById("btn_suzu").removeAttribute
   ("disabled");
 }
 
 function suzuClick(){
-  document.getElementById("ex1").innerText = "お願いをしましょう";
+
+  var elem = document.getElementById("miko_img");
+  elem.src = "img/miko.png"
+
+  document.getElementById("ex1").innerText = "神様にご挨拶をしましょう";
   if(flg < 2) {
     document.img.src = "img/tuna" + num + ".png";
     num++;
@@ -30,8 +37,12 @@ function suzuClick(){
 }
 
 function temp(){
-  console.log("神が舞い降りる");
-
-  let body_color = document.getElementById("body");
-  body_color.style.background= "";
+  swal({
+    content: {
+      element: "input",
+      attributes: {
+        placeholder: "2021年の抱負を教えてください",
+      },
+    },
+  });
 }
