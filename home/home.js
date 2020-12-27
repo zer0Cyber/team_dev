@@ -1,6 +1,6 @@
 jQuery(function(){
     $(function(){
-        $(".op").fadeOut(3000);
+        $(".op").fadeOut(1000);
     })
 
 
