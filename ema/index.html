@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/logo.png">
+<title>絵馬 | 神様に会おう</title>
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="sample.js"></script>
+</head>
+<body>
+  <header class="header-1">
+    <div class="header-inner">
+      <img class="logo-img" src="img/logo.png" />
+    </div>
+  </header>
+  <div class="alert">
+    <script>
+      swal({
+          title: '絵馬エリアへようこそ',
+          text: '今年のあなたの願いを聞かせてください！'
+      });
+    </script>
+  </div>
+  <table class="ema_choice">
+    <tr class="img_btn_choice">
+      <td><img src="img/ema_normal.png" id="img_ema1"></td>
+      <td><img src="img/ema_renai.png" id="img_ema2"></td>
+      <td><img src="img/ema_shigoto.png" id="img_ema3"></td>
+    </tr>
+    <tr class="btn_ema_all">
+      <td><a class="btn btn-border-shadow btn-border-shadow--color2" id="btn_ema1">ふつうのうしさん</a></td>
+      <td><a class="btn btn-border-shadow btn-border-shadow--color2" id="btn_ema2">れんあいのうしさん</a></td>
+      <td><a class="btn btn-border-shadow btn-border-shadow--color2" id="btn_ema3">おしごとのうしさん</a></td>
+    </tr>
+  </table>
+  <div class="ema_kakunin"></div>
+  <h2 id="setsumei">
+    <p>どの絵馬にしますか？</p>
+  </h2>
+  </body>
+</html>
