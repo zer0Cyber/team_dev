@@ -2,27 +2,27 @@
 ウィンターハッカソン用リポジトリ
 本番環境用
 
+## URL
 
-## チーム開発時のGitの使い方
+https://zer0cyber.github.io/team_dev/home/
 
-- git clone  URL（このリポジトリのリンク）
+## 使っている技術
 
-- git branch ブランチ名  ブランチ作成
+- HTML
+- CSS
+- JavaScript
 
-- git branch で今あるブランチがわかる
+## ディレクトリ構成
 
-- git switch ブランチ名  masterからスイッチ
-
-[【Git】あなたが知らない新コマンドswitch/restoreの世界にご招待 - Qiita](https://qiita.com/rebi/items/5a23f8cf904271bb5452)
-
-ファイル編集
-
-- git add *
-- git commit -v   or git commit -m “changed index.html"  コメントは例
-- git push origin ブランチ名
-
-- mergeの仕方
-作ったらブランチにプッシュできたら多分Pull Requestのボタンが出るはずなのでそれを押す
-
-管理者がmergeをするとPull Requestを飛ばした人にメールが届く
-
+- ema
+  - 絵馬を作成する機能に関するディレクトリ
+- hukuwarai
+  - 福笑いで遊ぶ機能に関するディレクトリ
+- home
+  - 各種機能に遷移することができる神社を模したホーム画面に関するディレクトリ
+- omikuji
+  - おみくじを引く機能に関するディレクトリ
+- op
+  - ホーム画面に遷移する前に導入として流れるオープニングに関するディレクトリ
+- osaisen
+  - お賽銭をする機能に関するディレクトリ
