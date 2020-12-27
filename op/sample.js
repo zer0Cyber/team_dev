@@ -10,8 +10,9 @@ function slideAtTime(){
     } else if (num==13) {
 
         const link = document.getElementById("link");
-        // 要素の追加
         link.style.pointerEvents = 'auto';
+        const start = document.getElementById("start");
+        start.innerHTML = "／ Click to Start ＼";
 
       return
     }
