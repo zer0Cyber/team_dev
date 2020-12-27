@@ -46,6 +46,18 @@ p{
   margin: 1%;
 }
 
+.ema_box {
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  bottom: 280px;
+  width:200px;
+  height:200px;
+  opacity: 0.55; /* 55％不透明度(＝45％透過) */
+  color: #333;
+  font-size: large;
+}
+
 h2 {
   text-align: center;
   position: relative;
