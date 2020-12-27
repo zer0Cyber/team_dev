@@ -6,6 +6,29 @@ body {
   height:100%;
   border: 30%;
 }
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.header-1 {
+  position: fixed;
+  background-color: #d14a2a;
+  box-sizing: border-box;
+  height: 100px;
+  width: 100%;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  padding: 0 2em;
+}
+.logo-img {
+  padding-top: 30px;
+  width: 70px;
+}
 .box {
   text-align: center;
 }
@@ -29,6 +52,8 @@ body {
   position: absolute;
   text-align: center;
 }
+
+
 #ex1 {
   position: absolute;
   text-align: center;
