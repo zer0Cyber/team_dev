@@ -45,4 +45,15 @@ $(document).on('click', '#btn_ema_back', function(){
 $(document).on('click', '#btn_ema_kansei', function(){
     const pray = document.ematextarea.emabox.value;
     $('.ema_box').remove();
+    $('#btn_ema_kansei').remove();
+    $("#setsumei").html("完成しました！");
+    $('.ema_box_kansei').append('<p>' + pray + '</p>');
+    $('.ema_box_kansei').css("position", "absolute");
+    $('.ema_box_kansei').css("text-align", "center");
+    $('.ema_box_kansei').css("left", "40%");
+    $('.ema_box_kansei').css("bottom", "280px");
+    $('.ema_box_kansei').css("width", "200px");
+    $('.ema_box_kansei').css("height", "200px");
+    $('.ema_box_kansei').css("color", "#333");
+    $('.ema_box_kansei').css("font-size", "large");
 });

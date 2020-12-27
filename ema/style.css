@@ -58,6 +58,17 @@ p{
   font-size: large;
 }
 
+/* .ema_box_kansei {
+  position: absolute;
+  text-align: center;
+  left: 40%;
+  bottom: 280px;
+  width:200px;
+  height:200px;
+  color: #333;
+  font-size: large;
+} */
+
 h2 {
   text-align: center;
   position: relative;
