@@ -11,20 +11,48 @@ body {
 
 header {
     position: relative;
-    margin: 2em;
-    font-weight: bold;
+    background-color: #f6d759;
+    box-sizing: border-box;
+    height: 100px;
+    width: 100%;
+    z-index: 2;
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
+    padding: 0 2em;
+}
+
+.logo-img {
+    padding-top: 30px;
+    width: 70px;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
 }
 
 .titletxt {
     font-size: 2em;
     font-weight: bold;
+    padding-top: 20px;
 }
+
+.nav {
+    font-weight: bold;
+}
+
 
 .logol {
     position: absolute;
-    top: 50px;
+    top: 60px;
     left: 20em;
     opacity: 0.9;
+    z-index: 1;
 }
 
 .logor {
@@ -32,6 +60,12 @@ header {
     right: -40px;
     top: 100px;
     opacity: 0.8;
+    z-index: 1;
+}
+
+p {
+    margin: 10px;
+    font-size: large;
 }
 
 .zone {
