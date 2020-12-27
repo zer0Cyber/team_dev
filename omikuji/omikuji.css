@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('omikuji_Image/omikuji_haikei.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.container {
+  width: 100%;
+  text-align: center;
+  height: 100%;
+}
+
+p {
+  margin: 5px;
+  padding: 5px;
+}
+
+h1 {
+  color: #f00;
+}
+
+span {
+  color: #000;
+}
+
+.container p {
+  width: 30%;
+  margin: 0 auto;
+}
+
+#main {
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+}
+
+#main img {
+  width: 250px;
+  height: 250px;
+  margin: 0 auto;
+}
+
+#main p {
+  text-align: center;
+}
+
+.buruburu {
+  -webkit-animation:buruburu 0.1s infinite linear alternate;
+  animation:buruburu 0.1s infinite linear alternate;
+}
+
+@-webkit-keyframes buruburu {
+  0% {-webkit-transform:translate(0, 0) rotate(-3deg);}
+  50% {-webkit-transform:translate(0, -1px) rotate(0deg);}
+  100% {-webkit-transform:translate(0, 0)rotate(3deg);}
+}
+
+@keyframes buruburu {
+  0% {transform:translate(0, 0) rotate(-3deg);}
+  50% {transform:translate(0, -1px) rotate(0deg);}
+  100% {transform:translate(0, 0)rotate(3deg);}
+}
+
+
+.daikichi {
+  font-size: 25px;
+  color: #f00;
+}
+
+#result {
+  text-align: center;
+  position: relative;
+}
+
+#result img {
+  width: 30%;
+  height: 50%;
+}
+
+#view {
+  position: absolute;
+  top: 3%;
+  right: 10%;
+  width: 80%;
+  color: #fff;
+  font-size: 250%;
+}
+
+#message {
+  position: absolute;
+  text-align: center;
+  top: 50%;
+  right: 10%;
+  width: 80%;
+  color: #000;
+  font-size: 120%;
+}
+
+
