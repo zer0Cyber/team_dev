@@ -171,13 +171,14 @@ a.btn-border-shadow--color2:before {
 .btn-twitter {
   display: inline-block;
   padding: .6em 1em .6em 2.5em;
-  margin: 0 0 .4em;
+  margin: 10px 0 .4em;
   background-color: #55acee;
   color: #fff;
   font-size: 16px;
   cursor: pointer;
   position: relative;
   text-decoration: none;
+  border-radius: 5px;
 }
 .btn-twitter::after {
   position: absolute;
@@ -201,6 +202,7 @@ a.btn-border-shadow--color2:before {
   position: relative;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  border-radius: 5px;
 }
 .btn-line::after {
   position: absolute;
