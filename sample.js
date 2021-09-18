@@ -12,7 +12,7 @@ function slideAtTime(){
         const link = document.getElementById("link");
         link.style.pointerEvents = 'auto';
         const start = document.getElementById("start");
-        start.innerHTML = "／ Click to Start ＼";
+        start.innerHTML = "<a id='toStart' href='./home/index.html'>／ Click to Start ＼<a>";
 
       return
     }

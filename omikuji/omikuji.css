@@ -151,6 +151,7 @@ section {
   cursor: pointer;
   position: relative;
   text-decoration: none;
+  border-radius: 5px;
 }
 
 .btn-twitter::after {
@@ -175,6 +176,7 @@ section {
   position: relative;
   text-decoration: none;
   transition: all 0.3s ease 0s;
+  border-radius: 5px;
 }
 
 .btn-line::after {

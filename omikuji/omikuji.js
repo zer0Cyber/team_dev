@@ -16,7 +16,7 @@ window.onload = function () {
   box.addEventListener('click', () => {
     const music = new Audio('syakasyaka.mp3');
     music.play();
-    music.volume = 0.3;
+    music.volume = 0.1;
     box.classList.add('buruburu');
     setTimeout(omikuji, 2000);
     setTimeout(animete, 2000);
@@ -55,5 +55,5 @@ window.onload = function () {
 }
 
 function sns(){
-  window.open('https://twitter.com/share?url=https://kamisama-ni-aou.herokuapp.com/omikuji/omikuji.html&text=私の今日の運勢は『'+ document.getElementById("view").textContent + '』です！ひとことアドバイス『'+ document.getElementById("message").textContent +'』みんなも御来院神社であそぼう！' + '&hashtags=御来院神社,神様に会おう', '_blank');
+  window.open('https://twitter.com/share?url=https://kamisama-ni-aou.herokuapp.com/omikuji/omikuji.html&text=私の今日の運勢は『'+ document.getElementById("view").textContent + '』です！ひとことアドバイス『'+ document.getElementById("message").textContent +'』みんなも御来院神社で遊ぼう！' + '&hashtags=御来院神社,神様に会おう', '_blank');
 }
