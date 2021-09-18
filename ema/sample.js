@@ -74,7 +74,7 @@ $(document).on('click', '#btn_ema_kansei', function(){
     $('.ema_box_kansei').css("text-align", "center");
     $('.ema_box_kansei').css("left", "40%");
     $('.ema_box_kansei').css("bottom", "280px");
-    $('.ema_box_kansei').css("width", "200px");
+    $('.ema_box_kansei').css("width", "300px");
     $('.ema_box_kansei').css("height", "200px");
     $('.ema_box_kansei').css("color", "#333");
     $('.ema_box_kansei').css("font-size", "large");
