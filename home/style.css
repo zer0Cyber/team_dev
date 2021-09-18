@@ -70,17 +70,19 @@ body {
 
 .miko {
     position: absolute;
-    right: 21em;
-    top: 20em;
-    width: 150px;
+    margin: 27% 55%;
+    /* right: 21em; */
+    /* top: 20em; */
+    /* width: 150px; */
+    /* max-width: 100%; */
     z-index: 100;
-    max-width: 100%;
 }
 
+/*
 .ex1 {
     position: relative;
     display: inline-block;
-    /* margin: 400px 820px; */
+    // margin: 400px 820px;
     margin: 33% 50%;
     padding: 7px 12px;
     min-width: 180px;
@@ -111,7 +113,7 @@ body {
     margin-top: -14px;
     border: 14px solid transparent;
     z-index: 1;
-}
+} */
 
 .mes {
     margin: 5px 0 -10px;
