@@ -16,6 +16,7 @@ window.onload = function () {
   box.addEventListener('click', () => {
     const music = new Audio('syakasyaka.mp3');
     music.play();
+    music.volume = 0.3;
     box.classList.add('buruburu');
     setTimeout(omikuji, 2000);
     setTimeout(animete, 2000);
