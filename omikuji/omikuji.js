@@ -20,36 +20,40 @@ window.onload = function () {
     box.classList.add('buruburu');
     setTimeout(omikuji, 2000);
     setTimeout(animete, 2000);
-    })
+  })
 
-    const animete = () => {
-      box.classList.remove('buruburu');
-    }
+  const animete = () => {
+    box.classList.remove('buruburu');
+  }
 
 
-    const omikuji = () => {
-      let rand = Math.floor(Math.random() * 100);
+  const omikuji = () => {
+    let rand = Math.floor(Math.random() * 100);
 
-      if (rand >= 80) {
-        view.innerHTML = list[0];
+    if (rand >= 80) {
+      view.innerHTML = list[0];
+      view.style.color = 'white';
+      message.innerHTML = daikichi[Math.floor(Math.random() * daikichi.length)];
+    } else if (rand >= 60) {
+      view.innerHTML = list[1];
+      view.style.color = 'white';
+      message.textContent = chukichi[Math.floor(Math.random() * chukichi.length)];
+    } else if (rand >= 40) {
+        view.innerHTML = list[2];
         view.style.color = 'white';
-        message.innerHTML = daikichi[Math.floor(Math.random() * daikichi.length)];
-      } else if (rand >= 60) {
-        view.innerHTML = list[1];
+        message.textContent = shokichi[Math.floor(Math.random() * shokichi.length)];
+    } else if (rand >= 20) {
+        view.innerHTML = list[3];
         view.style.color = 'white';
-        message.textContent = chukichi[Math.floor(Math.random() * chukichi.length)];
-      } else if (rand >= 40) {
-          view.innerHTML = list[2];
-          view.style.color = 'white';
-          message.textContent = shokichi[Math.floor(Math.random() * shokichi.length)];
-      } else if (rand >= 20) {
-          view.innerHTML = list[3];
-          view.style.color = 'white';
-          message.textContent = kichi[Math.floor(Math.random() * kichi.length)];
-      } else if (rand >= 0) {
-          view.innerHTML = list[4];
-          view.style.color = 'white';
-          message.textContent = kyo[Math.floor(Math.random() * kyo.length)];
-      }
+        message.textContent = kichi[Math.floor(Math.random() * kichi.length)];
+    } else if (rand >= 0) {
+        view.innerHTML = list[4];
+        view.style.color = 'white';
+        message.textContent = kyo[Math.floor(Math.random() * kyo.length)];
     }
   }
+}
+
+function sns(){
+  window.open('https://twitter.com/share?url=https://kamisama-ni-aou.herokuapp.com/omikuji/omikuji.html&text=私の今日の運勢は『'+ document.getElementById("view").textContent + '』です！ひとことアドバイス『'+ document.getElementById("message").textContent +'』みんなも御来院神社であそぼう！' + '&hashtags=御来院神社,神様に会おう', '_blank');
+}
