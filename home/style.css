@@ -18,7 +18,9 @@ body {
 
 .osaisenarea {
     position: absolute;
-    margin: 6em 40em;
+    /* margin: 6em 40em; */
+    /* max-width: 50%; */
+    margin: 8% 41%;
     padding: 180px 100px;
     background-color: #f6d759;
     color: #f6d759;
@@ -27,7 +29,8 @@ body {
 
 .omikujiarea {
     position: absolute;
-    margin: 11em 59em;
+    /* margin: 11em 59em; */
+    margin: 14% 62.5%;
     padding: 100px 25px;
     background-color:#f6d759;
     color: #f6d759;
@@ -36,8 +39,9 @@ body {
 
 .emaarea {
     position: absolute;
-    margin: 19em 22.5em;
-    padding: 100px 115px;
+    /* margin: 19em 22.5em; */
+    margin: 22% 20%;
+    padding: 100px 125px;
     background-color: #f6d759;
     color: #f6d759;
     opacity: 0;
@@ -45,8 +49,9 @@ body {
 
 .gamearea {
     position: absolute;
-    margin: 8em 73em;
-    padding: 240px 160px;
+    /* margin: 8em 73em; */
+    margin: 11% 77%;
+    padding: 230px 150px;
     background-color: #f6d759;
     color: #f6d759;
     opacity: 0;
@@ -54,8 +59,9 @@ body {
 
 .shoparea {
     position: absolute;
-    margin: 7em -1em;
-    padding: 250px 160px;
+    /* margin: 7em -1em; */
+    margin: 10% -1%;
+    padding: 250px 150px;
     background-color: #f6d759;
     color: #f6d759;
     opacity: 0;
@@ -68,12 +74,14 @@ body {
     top: 20em;
     width: 150px;
     z-index: 100;
+    max-width: 100%;
 }
 
 .ex1 {
     position: relative;
     display: inline-block;
-    margin: 400px 820px;
+    /* margin: 400px 820px; */
+    margin: 33% 50%;
     padding: 7px 12px;
     min-width: 180px;
     max-width: 100%;
@@ -103,4 +111,13 @@ body {
     margin-top: -14px;
     border: 14px solid transparent;
     z-index: 1;
+}
+
+.mes {
+    margin: 5px 0 -10px;
+    text-align: center;
+}
+
+.detailMes {
+    font-size: x-small;
 }
