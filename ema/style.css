@@ -39,7 +39,7 @@ p{
 .ema_kakunin {
   text-align: center;
 }
-#btn_ema_ok {
+#btn_ema_ok1, #btn_ema_ok2, #btn_ema_ok3 {
   margin: 1%;
 }
 #btn_ema_back {
