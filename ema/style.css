@@ -166,3 +166,55 @@ a.btn-border-shadow--color2:before {
   -webkit-box-shadow: 3px 3px 0 #d14a2a;
   box-shadow: 3px 3px 0 #d14a2a;
 }
+
+
+.btn-twitter {
+  display: inline-block;
+  padding: .6em 1em .6em 2.5em;
+  margin: 0 0 .4em;
+  background-color: #55acee;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+}
+.btn-twitter::after {
+  position: absolute;
+  content: '\f099';
+  font-family: 'Font Awesome 5 Brands';
+  font-weight: 400;
+  top: 50%;
+  left: .5em;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+}
+
+.btn-line {
+  display: inline-block;
+  padding: .6em 1em .6em 2.5em;
+  margin: 0 0 .4em;
+  background-color: #1dcd00;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  transition: all 0.3s ease 0s;
+}
+.btn-line::after {
+  position: absolute;
+  content: "\f3c0";
+  font-family: 'Font Awesome 5 Brands';
+  top: 50%;
+  left: .5em;
+  transform: translateY(-50%);
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.share_btn {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em
+}
