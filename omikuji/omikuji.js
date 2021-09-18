@@ -29,7 +29,6 @@ window.onload = function () {
     const omikuji = () => {
       let rand = Math.floor(Math.random() * 100);
 
-      console.log(rand);
       if (rand >= 80) {
         view.innerHTML = list[0];
         view.style.color = 'white';
