@@ -25,30 +25,31 @@ window.onload = function () {
       box.classList.remove('buruburu');
     }
 
-    
+
     const omikuji = () => {
       let rand = Math.floor(Math.random() * 100);
 
-      if (rand <= 80) {
+      console.log(rand);
+      if (rand >= 80) {
         view.innerHTML = list[0];
         view.style.color = 'white';
         message.innerHTML = daikichi[Math.floor(Math.random() * daikichi.length)];
-      } else if (rand <= 25) {
+      } else if (rand >= 60) {
         view.innerHTML = list[1];
         view.style.color = 'white';
         message.textContent = chukichi[Math.floor(Math.random() * chukichi.length)];
-        } else if (rand <= 45) {
+      } else if (rand >= 40) {
           view.innerHTML = list[2];
           view.style.color = 'white';
           message.textContent = shokichi[Math.floor(Math.random() * shokichi.length)];
-        } else if (rand <= 80) {
+      } else if (rand >= 20) {
           view.innerHTML = list[3];
           view.style.color = 'white';
           message.textContent = kichi[Math.floor(Math.random() * kichi.length)];
-        } else if (rand <= 100) {
+      } else if (rand >= 0) {
           view.innerHTML = list[4];
           view.style.color = 'white';
           message.textContent = kyo[Math.floor(Math.random() * kyo.length)];
-        }
+      }
     }
   }
